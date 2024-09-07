@@ -1,0 +1,183 @@
+
+  /* Basic body styling */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5; /* Light gray background */
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+
+  /* Header styling */
+  h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #4a5568; /* Darker gray */
+    font-size: 2rem; /* 32px */
+  }
+
+  /* Table styling */
+  #ipTable {
+    width: 80%;
+    margin: 20px auto; /* Center align the table and add margin */
+    border-collapse: collapse;
+    background-color: #ffffff; /* White background for table */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+  }
+
+  #ipTable th, #ipTable td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #e5e7eb; /* Light gray border for table cells */
+  }
+
+  /* Header styling */
+  #ipTable thead {
+    background-color: #e2e8f0; /* Light blue-gray background */
+  }
+
+  #ipTable th {
+    font-size: 0.875rem; /* 14px */
+    font-weight: 600; /* Semi-bold */
+    color: #4a5568; /* Darker gray text */
+    text-transform: uppercase;
+  }
+
+  /* Body styling */
+  #ipTable tbody tr {
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+  }
+
+  #ipTable tbody tr:nth-child(odd) {
+    background-color: #f9fafb; /* Zebra striping */
+  }
+
+  #ipTable tbody tr:hover {
+    background-color: #e2e8f0; /* Highlight on hover */
+  }
+
+  /* Header container styling */
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff; /* White background for header */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow effect */
+  }
+
+  /* Header styling */
+  h1 {
+    margin: 0;
+    color: #4a5568; /* Darker gray */
+    font-size: 2rem; /* 32px */
+  }
+
+  /* Button styling */
+  .plus-button {
+    background-color: #4caf50; /* Green background */
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 1.5rem; /* Larger font size for the button */
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+
+  .plus-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+
+  .plus-button:active {
+    transform: scale(0.95); /* Slight scale down on click */
+  }
+  /* Modal styles */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+    max-width: 500px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+  }
+  
+  /* Close button styling */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* Form styling */
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form-group textarea {
+    height: 80px;
+    resize: vertical;
+  }
+  
+  /* Modal footer styling */
+  .modal-footer {
+    text-align: right;
+  }
+  
+  .modal-footer button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .submit-button {
+    background-color: #4caf50; /* Green background */
+    color: white;
+  }
+  
+  .cancel-button {
+    background-color: #f44336; /* Red background */
+    color: white;
+  }
